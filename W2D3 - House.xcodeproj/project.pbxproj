@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9D681BED1FC7D9670031EE5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D681BEC1FC7D9670031EE5F /* AppDelegate.m */; };
-		9D681BF01FC7D9670031EE5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D681BEF1FC7D9670031EE5F /* ViewController.m */; };
 		9D681BF31FC7D9670031EE5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D681BF11FC7D9670031EE5F /* Main.storyboard */; };
 		9D681BF51FC7D9670031EE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D681BF41FC7D9670031EE5F /* Assets.xcassets */; };
 		9D681BF81FC7D9670031EE5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D681BF61FC7D9670031EE5F /* LaunchScreen.storyboard */; };
 		9D681BFB1FC7D9670031EE5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D681BFA1FC7D9670031EE5F /* main.m */; };
+		9D681C031FC7D9890031EE5F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D681C021FC7D9890031EE5F /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D681BE81FC7D9670031EE5F /* W2D3 - House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W2D3 - House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D681BEB1FC7D9670031EE5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D681BEC1FC7D9670031EE5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9D681BEE1FC7D9670031EE5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9D681BEF1FC7D9670031EE5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D681BF21FC7D9670031EE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D681BF41FC7D9670031EE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D681BF71FC7D9670031EE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D681BF91FC7D9670031EE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D681BFA1FC7D9670031EE5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D681C011FC7D9890031EE5F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9D681C021FC7D9890031EE5F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				9D681BEB1FC7D9670031EE5F /* AppDelegate.h */,
 				9D681BEC1FC7D9670031EE5F /* AppDelegate.m */,
-				9D681BEE1FC7D9670031EE5F /* ViewController.h */,
-				9D681BEF1FC7D9670031EE5F /* ViewController.m */,
+				9D681C011FC7D9890031EE5F /* MainViewController.h */,
+				9D681C021FC7D9890031EE5F /* MainViewController.m */,
 				9D681BF11FC7D9670031EE5F /* Main.storyboard */,
 				9D681BF41FC7D9670031EE5F /* Assets.xcassets */,
 				9D681BF61FC7D9670031EE5F /* LaunchScreen.storyboard */,
@@ -142,8 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D681BF01FC7D9670031EE5F /* ViewController.m in Sources */,
 				9D681BFB1FC7D9670031EE5F /* main.m in Sources */,
+				9D681C031FC7D9890031EE5F /* MainViewController.m in Sources */,
 				9D681BED1FC7D9670031EE5F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
